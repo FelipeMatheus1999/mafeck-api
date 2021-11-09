@@ -4,7 +4,42 @@
       "email": "kenzinho@mail.com",
       "password": "$2a$10$YQiiz0ANVwIgpOjYXPxc0O9H2XeX3m8OoY1xk7OGgxTnOJnsZU7FO",
       "name": "Kenzinho",
-      "age": 38,
+      "id": 1
+    },
+    {
+      "email": "teste@gmail.com",
+      "password": "$2a$10$9dnKTgA74JdVAoizYld4M.PW9V.WoNWc6hTQwbWhMneA4xbLdMGyK",
+      "username": "teste",
+      "id": 2
+    }
+  ],
+  "people": [
+    {
+      "name": "teste",
+      "cpf": "055.321.435.80",
+      "genre": "masculíno",
+      "naturalness": "Cearense",
+      "nationality": "Brasileiro",
+      "father's name": "Pedro Arruda da silva",
+      "mother's name": "Maria Ericka da silva",
+      "qualification": "",
+      "company": "Kenzie",
+      "phone": "9-9423.4566",
+      "type": "PF",
+      "marital status": "Solteiro",
+      "address": {
+        "road": "Cágado",
+        "zip code": "355399.10",
+        "district": "Ben fica",
+        "house number": "456"
+      },
+      "comments": [
+        {
+          "comment": "teste",
+          "id": 1
+        }
+      ],
+      "userId": "2",
       "id": 1
     }
   ]
