@@ -25,13 +25,13 @@ Qualquer um desses 2 endpoints pode ser usado para realizar login com um dos usu
 
 ### Create People
 
-POST /users/userId/people
+POST /users/userId/people, Authorization: true.
 
 Nesse endpoint você pode criar uma pessoa. É preciso está logado para criar uma pessoa.
 
 ### Patch People
 
-PATCH /people/peopleId, Authorization: true
+PATCH /people/peopleId, Authorization: true.
 
 Esse endpoint atualiza o usuário e o array de comentários. É preciso está logado para atualizar.
 
@@ -67,4 +67,4 @@ atualizar comentários:
 
 ### Remove People
 
-DELETE /people/peopleId, Authorization: true
+DELETE /people/peopleId, Authorization: true.
