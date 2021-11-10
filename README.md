@@ -17,9 +17,12 @@ Qualquer um desses 3 endpoints irá cadastrar o usuário na lista de "Users", se
 Você pode ficar a vontade para adicionar qualquer outra propriedade no corpo do cadastro dos usuários.
 
 body: {<br/>
-       "username": "teste",<br/>
-       "email": "teste@gmail.com",<br/>
-       "password": "123456Aa@"<br/>
+	"username": "teste",<br/>
+	"email": "teste@gmail.com",<br/>
+	"password": "123456Aa@",<br/>
+	"phone": "990991234",<br/>
+	"oab": "451267",<br/>
+	"state": "CE"<br/>
        }
 
 response: {<br/>
