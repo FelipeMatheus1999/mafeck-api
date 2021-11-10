@@ -30,6 +30,9 @@ response: {<br/>
               "user": {
                 "email": "teste@gmail.com",<br/>
                 "username": "teste",<br/>
+		"phone": "990991234",<br/>
+	        "oab": "451267",<br/>
+	        "state": "CE",<br/>
                 "id": 2<br/>
               }<br/>
             }
