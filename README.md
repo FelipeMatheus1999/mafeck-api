@@ -168,7 +168,7 @@ response: {<br/>
         } 
 
 atualizar comentários
-body: {"comment": "comment...", "id": 1}
+body: {"title": "title comment" , comment": "comment...", "id": 1}
 
 response: {<br/>
           "name": "teste",<br/>
