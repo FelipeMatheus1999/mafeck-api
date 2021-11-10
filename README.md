@@ -13,6 +13,9 @@ POST /register <br/>
 POST /signup <br/>
 POST /users
 
+Qualquer um desses 3 endpoints irá cadastrar o usuário na lista de "Users", sendo que os campos obrigatórios são os de email e password.
+Você pode ficar a vontade para adicionar qualquer outra propriedade no corpo do cadastro dos usuários.
+
 body: {<br/>
        "username": "teste",<br/>
        "email": "teste@gmail.com",<br/>
@@ -28,13 +31,12 @@ response: {<br/>
               }<br/>
             }
 
-Qualquer um desses 3 endpoints irá cadastrar o usuário na lista de "Users", sendo que os campos obrigatórios são os de email e password.
-Você pode ficar a vontade para adicionar qualquer outra propriedade no corpo do cadastro dos usuários.
-
 ### Login
 
 POST /login <br/>
 POST /signin
+
+Qualquer um desses 2 endpoints pode ser usado para realizar login com um dos usuários cadastrados na lista de "Users"
 
 body: {<br/>
         "email": "teste@gmail.com",<br/>
@@ -50,11 +52,11 @@ response: {<br/>
               }<br/>
             }
 
-Qualquer um desses 2 endpoints pode ser usado para realizar login com um dos usuários cadastrados na lista de "Users"
-
 ### Create People
 
 POST /users/userId/people, Authorization: true.
+
+Nesse endpoint você pode criar uma pessoa. É preciso está logado para criar uma pessoa.
 
 body: {<br/>
       "name": "teste1",<br/>
@@ -101,8 +103,6 @@ response: {<br/>
           "userId": "2",<br/>
           "id": 3<br/>
         }
-
-Nesse endpoint você pode criar uma pessoa. É preciso está logado para criar uma pessoa.
 
 ### Patch People
 
