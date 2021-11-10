@@ -14,16 +14,16 @@ POST /signup <br/>
 POST /users
 
 body: {
-       "username": "teste",
-       "email": "teste@gmail.com",
+       "username": "teste",<br/>
+       "email": "teste@gmail.com",<br/>
        "password": "123456Aa@"
        }
 
 response: {
-              "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InRlc3RlQGdtYWlsLmNvbSIsImlhdCI6MTYzNjU1MjUwNywiZXhwIjoxNjM2NTU2MTA3LCJzdWIiOiIyIn0.pG3YWQF3h4uxGor-HKG3wN36WZKLtGMeNTNAA4kaAEg",
+              "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InRlc3RlQGdtYWlsLmNvbSIsImlhdCI6MTYzNjU1MjUwNywiZXhwIjoxNjM2NTU2MTA3LCJzdWIiOiIyIn0.pG3YWQF3h4uxGor-HKG3wN36WZKLtGMeNTNAA4kaAEg",<br/>
               "user": {
-                "email": "teste@gmail.com",
-                "username": "teste",
+                "email": "teste@gmail.com",<br/>
+                "username": "teste",<br/>
                 "id": 2
               }
             }
@@ -37,15 +37,15 @@ POST /login <br/>
 POST /signin
 
 body: {
-        "email": "teste@gmail.com",
+        "email": "teste@gmail.com",<br/>
         "password": "123456Aa@"
         }
 
 response: {
-              "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InRlc3RlQGdtYWlsLmNvbSIsImlhdCI6MTYzNjU1MjUwNywiZXhwIjoxNjM2NTU2MTA3LCJzdWIiOiIyIn0.pG3YWQF3h4uxGor-HKG3wN36WZKLtGMeNTNAA4kaAEg",
+              "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InRlc3RlQGdtYWlsLmNvbSIsImlhdCI6MTYzNjU1MjUwNywiZXhwIjoxNjM2NTU2MTA3LCJzdWIiOiIyIn0.pG3YWQF3h4uxGor-HKG3wN36WZKLtGMeNTNAA4kaAEg",<br/>
               "user": {
-                "email": "teste@gmail.com",
-                "username": "teste",
+                "email": "teste@gmail.com",<br/>
+                "username": "teste",<br/>
                 "id": 2
               }
             }
@@ -57,48 +57,48 @@ Qualquer um desses 2 endpoints pode ser usado para realizar login com um dos usu
 POST /users/userId/people, Authorization: true.
 
 body: {
-      "name": "teste1",
-      "cpf": "055.321.435.80",
-      "genre": "masculíno",
-      "naturalness": "Cearense",
-      "nationality": "Brasileiro",
-      "father's name": "Pedro Arruda da silva",
-      "mother's name": "Maria Ericka da silva",
-      "qualification": "",
-      "company": "Kenzie",
-      "phone": "9-9423.4566",
-      "type": "PF",
-      "marital status": "Casado",
+      "name": "teste1",<br/>
+      "cpf": "055.321.435.80",<br/>
+      "genre": "masculíno",<br/>
+      "naturalness": "Cearense",<br/>
+      "nationality": "Brasileiro",<br/>
+      "father's name": "Pedro Arruda da silva",<br/>
+      "mother's name": "Maria Ericka da silva",<br/>
+      "qualification": "",<br/>
+      "company": "Kenzie",<br/>
+      "phone": "9-9423.4566",<br/>
+      "type": "PF",<br/>
+      "marital status": "Casado",<br/>
       "address": {
-        "road": "Cágado",
-        "zip code": "355399.10",
-        "district": "Ben fica",
-        "house number": "456"
+        "road": "Cágado",<br/>
+        "zip code": "355399.10",<br/>
+        "district": "Ben fica",<br/>
+        "house number": "456"<br/>
       },
-      "comments": [],
+      "comments": [],<br/>
     }
 
 response: {
-          "name": "teste1",
-          "cpf": "055.321.435.80",
-          "genre": "masculíno",
-          "naturalness": "Cearense",
-          "nationality": "Brasileiro",
-          "father's name": "Pedro Arruda da silva",
-          "mother's name": "Maria Ericka da silva",
-          "qualification": "",
-          "company": "Kenzie",
-          "phone": "9-9423.4566",
-          "type": "PF",
-          "marital status": "Casado",
+          "name": "teste1",<br/>
+          "cpf": "055.321.435.80",<br/>
+          "genre": "masculíno",<br/>
+          "naturalness": "Cearense",<br/>
+          "nationality": "Brasileiro",<br/>
+          "father's name": "Pedro Arruda da silva",<br/>
+          "mother's name": "Maria Ericka da silva",<br/>
+          "qualification": "",<br/>
+          "company": "Kenzie",<br/>
+          "phone": "9-9423.4566",<br/>
+          "type": "PF",<br/>
+          "marital status": "Casado",<br/>
           "address": {
-            "road": "Cágado",
-            "zip code": "355399.10",
-            "district": "Ben fica",
-            "house number": "456"
+            "road": "Cágado",<br/>
+            "zip code": "355399.10",<br/>
+            "district": "Ben fica",<br/>
+            "house number": "456"<br/>
           },
-          "comments": [],
-          "userId": "2",
+          "comments": [],<br/>
+          "userId": "2",<br/>
           "id": 3
         }
 
@@ -112,52 +112,52 @@ Esse endpoint atualiza o usuário e o array de comentários. É preciso está lo
 
 atualizar pessoa
 body :{
-        "name": "teste",
-        "cpf": "055.321.435.80",
-        "genre": "masculíno",
-        "naturalness": "Cearense",
-        "nationality": "Brasileiro",
-        "father's name": "Pedro Arruda da silva",
-        "mother's name": "Maria Ericka da silva",
-        "qualification": "",
-        "company": "Kenzie",
-        "phone": "9-9423.4566",
-        "type": "PF",
-        "marital status": "Casado",
+        "name": "teste",<br/>
+        "cpf": "055.321.435.80",<br/>
+        "genre": "masculíno",<br/>
+        "naturalness": "Cearense",<br/>
+        "nationality": "Brasileiro",<br/>
+        "father's name": "Pedro Arruda da silva",<br/>
+        "mother's name": "Maria Ericka da silva",<br/>
+        "qualification": "",<br/>
+        "company": "Kenzie",<br/>
+        "phone": "9-9423.4566",<br/>
+        "type": "PF",<br/>
+        "marital status": "Casado",<br/>
         "address": {
-            "road": "Cágado",
-            "zip code": "355399.10",
-            "district": "Ben fica",
+            "road": "Cágado",<br/>
+            "zip code": "355399.10",<br/>
+            "district": "Ben fica",<br/>
             "house number": "456"
         }
     }
     
 response: {
-          "name": "teste",
-          "cpf": "055.321.435.80",
-          "genre": "masculíno",
-          "naturalness": "Cearense",
-          "nationality": "Brasileiro",
-          "father's name": "Pedro Arruda da silva",
-          "mother's name": "Maria Ericka da silva",
-          "qualification": "",
-          "company": "Kenzie",
-          "phone": "9-9423.4566",
-          "type": "PF",
-          "marital status": "Casado",
+          "name": "teste",<br/>
+          "cpf": "055.321.435.80",<br/>
+          "genre": "masculíno",<br/>
+          "naturalness": "Cearense",<br/>
+          "nationality": "Brasileiro",<br/>
+          "father's name": "Pedro Arruda da silva",<br/>
+          "mother's name": "Maria Ericka da silva",<br/>
+          "qualification": "",<br/>
+          "company": "Kenzie",<br/>
+          "phone": "9-9423.4566",<br/>
+          "type": "PF",<br/>
+          "marital status": "Casado",<br/>
           "address": {
-            "road": "Cágado",
-            "zip code": "355399.10",
-            "district": "Ben fica",
+            "road": "Cágado",<br/>
+            "zip code": "355399.10",<br/>
+            "district": "Ben fica",<br/>
             "house number": "456"
           },
           "comments": [
             {
-              "comment": "teste",
+              "comment": "teste",<br/>
               "id": 1
             }
           ],
-          "userId": "2",
+          "userId": "2",<br/>
           "id": 1
         } 
 
@@ -165,31 +165,31 @@ atualizar comentários
 body: {"comment": "comment...", "id": 1}
 
 response: {
-          "name": "teste",
-          "cpf": "055.321.435.80",
-          "genre": "masculíno",
-          "naturalness": "Cearense",
-          "nationality": "Brasileiro",
-          "father's name": "Pedro Arruda da silva",
-          "mother's name": "Maria Ericka da silva",
-          "qualification": "",
-          "company": "Kenzie",
-          "phone": "9-9423.4566",
-          "type": "PF",
-          "marital status": "Solteiro",
+          "name": "teste",<br/>
+          "cpf": "055.321.435.80",<br/>
+          "genre": "masculíno",<br/>
+          "naturalness": "Cearense",<br/>
+          "nationality": "Brasileiro",<br/>
+          "father's name": "Pedro Arruda da silva",<br/>
+          "mother's name": "Maria Ericka da silva",<br/>
+          "qualification": "",<br/>
+          "company": "Kenzie",<br/>
+          "phone": "9-9423.4566",<br/>
+          "type": "PF",<br/>
+          "marital status": "Solteiro",<br/>
           "address": {
-            "road": "Cágado",
-            "zip code": "355399.10",
-            "district": "Ben fica",
+            "road": "Cágado",<br/>
+            "zip code": "355399.10",<br/>
+            "district": "Ben fica",<br/>
             "house number": "456"
           },
           "comments": [
             {
-              "comment": "teste",
+              "comment": "teste",<br/>
               "id": 1
             }
           ],
-          "userId": "2",
+          "userId": "2",<br/>
           "id": 1
         }
 
