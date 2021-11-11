@@ -70,18 +70,18 @@ body: {<br/>
       "genre": "masculíno",<br/>
       "naturalness": "Cearense",<br/>
       "nationality": "Brasileiro",<br/>
-      "father's name": "Pedro Arruda da silva",<br/>
-      "mother's name": "Maria Ericka da silva",<br/>
+      "fatherName": "Pedro Arruda da silva",<br/>
+      "motherName": "Maria Ericka da silva",<br/>
       "qualification": "",<br/>
       "company": "Kenzie",<br/>
       "phone": "9-9423.4566",<br/>
       "type": "PF",<br/>
-      "marital status": "Casado",<br/>
+      "maritalStatus": "Casado",<br/>
       "address": {
         "road": "Cágado",<br/>
-        "zip code": "355399.10",<br/>
+        "zipCode": "355399.10",<br/>
         "district": "Ben fica",<br/>
-        "house number": "456"<br/>
+        "houseNumber": "456"<br/>
       },<br/>
       "comments": [],<br/>
     }
@@ -92,18 +92,18 @@ response: {<br/>
           "genre": "masculíno",<br/>
           "naturalness": "Cearense",<br/>
           "nationality": "Brasileiro",<br/>
-          "father's name": "Pedro Arruda da silva",<br/>
-          "mother's name": "Maria Ericka da silva",<br/>
+          "fatherName": "Pedro Arruda da silva",<br/>
+          "motherName": "Maria Ericka da silva",<br/>
           "qualification": "",<br/>
           "company": "Kenzie",<br/>
           "phone": "9-9423.4566",<br/>
           "type": "PF",<br/>
-          "marital status": "Casado",<br/>
+          "maritalStatus": "Casado",<br/>
           "address": {
             "road": "Cágado",<br/>
-            "zip code": "355399.10",<br/>
+            "zipCode": "355399.10",<br/>
             "district": "Ben fica",<br/>
-            "house number": "456"<br/>
+            "houseNumber": "456"<br/>
           },
           "comments": [],<br/>
           "userId": "2",<br/>
@@ -123,18 +123,18 @@ body :{<br/>
         "genre": "masculíno",<br/>
         "naturalness": "Cearense",<br/>
         "nationality": "Brasileiro",<br/>
-        "father's name": "Pedro Arruda da silva",<br/>
-        "mother's name": "Maria Ericka da silva",<br/>
+        "fatherName": "Pedro Arruda da silva",<br/>
+        "motherName": "Maria Ericka da silva",<br/>
         "qualification": "",<br/>
         "company": "Kenzie",<br/>
         "phone": "9-9423.4566",<br/>
         "type": "PF",<br/>
-        "marital status": "Casado",<br/>
+        "maritalStatus": "Casado",<br/>
         "address": {
             "road": "Cágado",<br/>
-            "zip code": "355399.10",<br/>
+            "zipCode": "355399.10",<br/>
             "district": "Ben fica",<br/>
-            "house number": "456"<br/>
+            "houseNumber": "456"<br/>
         }<br/>
     }
     
@@ -144,18 +144,18 @@ response: {<br/>
           "genre": "masculíno",<br/>
           "naturalness": "Cearense",<br/>
           "nationality": "Brasileiro",<br/>
-          "father's name": "Pedro Arruda da silva",<br/>
-          "mother's name": "Maria Ericka da silva",<br/>
+          "fatherName": "Pedro Arruda da silva",<br/>
+          "motherName": "Maria Ericka da silva",<br/>
           "qualification": "",<br/>
           "company": "Kenzie",<br/>
           "phone": "9-9423.4566",<br/>
           "type": "PF",<br/>
-          "marital status": "Casado",<br/>
+          "maritalStatus": "Casado",<br/>
           "address": {
             "road": "Cágado",<br/>
-            "zip code": "355399.10",<br/>
+            "zipCode": "355399.10",<br/>
             "district": "Ben fica",<br/>
-            "house number": "456"<br/>
+            "houseNumber": "456"<br/>
           },<br/>
           "comments": [<br/>
             {<br/>
@@ -177,18 +177,18 @@ response: {<br/>
           "genre": "masculíno",<br/>
           "naturalness": "Cearense",<br/>
           "nationality": "Brasileiro",<br/>
-          "father's name": "Pedro Arruda da silva",<br/>
-          "mother's name": "Maria Ericka da silva",<br/>
+          "fatherName": "Pedro Arruda da silva",<br/>
+          "motherName": "Maria Ericka da silva",<br/>
           "qualification": "",<br/>
           "company": "Kenzie",<br/>
           "phone": "9-9423.4566",<br/>
           "type": "PF",<br/>
-          "marital status": "Solteiro",<br/>
+          "maritalStatus": "Solteiro",<br/>
           "address": {
             "road": "Cágado",<br/>
-            "zip code": "355399.10",<br/>
+            "zipCode": "355399.10",<br/>
             "district": "Ben fica",<br/>
-            "house number": "456"<br/>
+            "houseNumber": "456"<br/>
           },<br/>
           "comments": [<br/>
             {<br/>
