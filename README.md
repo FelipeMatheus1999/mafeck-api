@@ -1,4 +1,4 @@
-## MAFECK-HAKI API (SAMUEL GRUPO 2) ##
+# MAFECK-HAKI API (SAMUEL GRUPO 2) #
 Base URL: https://mafeck-api.herokuapp.com/
 
 ## Endpoints
@@ -7,7 +7,7 @@ Existem 3 endpoints que podem ser utilizados para cadastro, 2 endpoints que pode
 
 ## ROTAS QUE NÃO PRECISAM DE AUTENTICAÇÃO ##
 
-### Cadastro
+### Cadastro ###
 
 POST /register <br/>
 POST /signup <br/>
@@ -37,7 +37,7 @@ response: {<br/>
               }<br/>
             }
 
-### Login
+### Login ###
 
 POST /login <br/>
 POST /signin
@@ -66,7 +66,7 @@ Rotas que necessitam de autorização deve ser informado no cabeçalho da requis
 Authorization: Bearer {token}
 
 
-# Create People #
+### Create People ###
 
 Nesse endpoint você pode criar uma pessoa. 
 
@@ -120,7 +120,7 @@ response: {<br/>
           "id": 3<br/>
         }
 
-# Patch People #
+### Patch People ###
 
 Esse endpoint atualiza o usuário e o array de comentários. É preciso está logado para atualizar.
 
@@ -182,7 +182,7 @@ response: {<br/>
         } 
 
 
-# Patch Comments #
+### Patch Comments ###
 
 Atualizar comentários
 PATCH /people/peopleId - FORMATO DA REQUISIÇÃO
@@ -221,7 +221,7 @@ response: {<br/>
           "id": 1<br/>
         }
 
-# Remove People #
+### Remove People ###
 
 DELETE /people/peopleId
 
