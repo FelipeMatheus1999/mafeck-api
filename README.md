@@ -59,7 +59,7 @@ response: {<br/>
             }
 
 
-## ROTAS QUE PRECISAM DE ALTERAÇÃO ##
+## ROTAS QUE PRECISAM DE AUTENTICAÇÃO ##
 
 Rotas que necessitam de autorização deve ser informado no cabeçalho da requisição o campo "Authorization", dessa forma:
 
