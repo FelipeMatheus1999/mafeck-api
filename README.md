@@ -1,11 +1,11 @@
-# json-server-base
-
+## MAFECK-HAKI API (SAMUEL GRUPO 2) ##
 Base URL: https://mafeck-api.herokuapp.com/
-Esse é o repositório com a base de JSON-Server + JSON-Server-Auth já configurada, feita para ser usada no desenvolvimento das API's nos Capstones do Q2.
 
 ## Endpoints
 
 Existem 3 endpoints que podem ser utilizados para cadastro, 2 endpoints que podem ser usados para login, 1 para criar uma pessoa, 1 para criar os comentários e 1 para atualizar.
+
+## ROTAS QUE NÃO PRECISAM DE AUTENTICAÇÃO ##
 
 ### Cadastro
 
@@ -58,11 +58,19 @@ response: {<br/>
               }<br/>
             }
 
-### Create People
 
-POST /users/userId/people, Authorization: true.
+## ROTAS QUE PRECISAM DE ALTERAÇÃO ##
 
-Nesse endpoint você pode criar uma pessoa. É preciso está logado para criar uma pessoa.
+Rotas que necessitam de autorização deve ser informado no cabeçalho da requisição o campo "Authorization", dessa forma:
+
+Authorization: Bearer {token}
+
+
+# Create People #
+
+Nesse endpoint você pode criar uma pessoa. 
+
+POST /users/userId/people - FORMATO DA REQUISIÇÃO
 
 body: {<br/>
       "name": "teste1",<br/>
@@ -85,6 +93,8 @@ body: {<br/>
       },<br/>
       "comments": [],<br/>
     }
+
+FORMATO DA RESPOSTA
 
 response: {<br/>
           "name": "teste1",<br/>
@@ -110,13 +120,13 @@ response: {<br/>
           "id": 3<br/>
         }
 
-### Patch People
-
-PATCH /people/peopleId, Authorization: true.
+# Patch People #
 
 Esse endpoint atualiza o usuário e o array de comentários. É preciso está logado para atualizar.
 
-atualizar pessoa
+Atualizar pessoa
+PATCH /people/peopleId - FORMATO DA REQUISIÇÃO
+
 body :{<br/>
         "name": "teste",<br/>
         "cpf": "055.321.435.80",<br/>
@@ -138,6 +148,9 @@ body :{<br/>
         }<br/>
     }
     
+
+  FORMATO DA RESPOSTA 
+
 response: {<br/>
           "name": "teste",<br/>
           "cpf": "055.321.435.80",<br/>
@@ -168,8 +181,15 @@ response: {<br/>
           "id": 1<br/>
         } 
 
-atualizar comentários
+
+# Patch Comments #
+
+Atualizar comentários
+PATCH /people/peopleId - FORMATO DA REQUISIÇÃO
+
 body: {"title": "title comment" , comment": "comment...", "id": 1}
+
+FORMATO DA RESPOSTA
 
 response: {<br/>
           "name": "teste",<br/>
@@ -201,9 +221,12 @@ response: {<br/>
           "id": 1<br/>
         }
 
-### Remove People
+# Remove People #
 
-DELETE /people/peopleId, Authorization: true.
+DELETE /people/peopleId
+
 body: null
+
+FORMATO DA RESPOSTA
 
 response: 200 OK: {}
